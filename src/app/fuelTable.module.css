@@ -1,0 +1,54 @@
+.tableContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.fuelRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fuelPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    background: radial-gradient(circle, rgb(65, 65, 65) 0%, rgba(45,45,45,1) 63%);
+}
+
+.fuelName{
+    margin: 10px;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.fuelPrice{
+    margin: 10px;
+    padding-left: 8px;
+    padding-right: 2px;
+    font-family: 'Handjet', cursive;
+    background-color: #1a1919;
+    color: #ff703c;
+    font-size: 65px;
+    animation: glow .5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 7px rgba(255, 112, 60, 1);
+    }
+    to {
+        text-shadow: 0px 0px 12px rgba(255, 112, 60, 1);
+    }
+}

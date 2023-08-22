@@ -1,0 +1,40 @@
+{
+  "fuels": [
+    {
+      "id": 1,
+      "name": "Pb95",
+      "price": 6.36,
+      "color": "#5bb62b"
+    },
+    {
+      "id": 2,
+      "name": "Pb98",
+      "price": 6.59,
+      "color": "#247b28"
+    },
+    {
+      "id": 3,
+      "name": "ON",
+      "price": 6.58,
+      "color": "#685e66"
+    },
+    {
+      "id": 4,
+      "name": "ON+",
+      "price": 6.74,
+      "color": "#4c2f46"
+    },
+    {
+      "id": 5,
+      "name": "LPG",
+      "price": 2.53,
+      "color": "#49c4fd"
+    },
+    {
+      "id": 6,
+      "name": "Pb100 R+",
+      "price": 7.26,
+      "color": "#b80000"
+    }
+  ]
+}

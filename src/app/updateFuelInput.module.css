@@ -1,0 +1,31 @@
+.container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorInput {
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: #dcdcdc;
+}
+
+.priceInput {
+    width: 60px;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: #dcdcdc;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button {
+    width: 70px;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: #dcdcdc;
+    font-weight: bold;
+}
